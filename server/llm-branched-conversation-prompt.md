@@ -62,13 +62,20 @@ Here's an example of how the conversation structure might look and how you shoul
         "role": "user",
         "parent": [4, 5],
         "content": "What are the places to visit?",
-        "children": [7]
+        "children": [7, 8]
     },
     {
         "id": 7,
         "role": "assistant",
         "parent": [6],
-        "content": "Here are some places to visit in both Beijing and Paris:\nBeijing (2008 Olympics host):\n1. The Great Wall of China\n2. The Forbidden City\n3. The Olympic Park, including the Bird's Nest stadium\n\nParis (2024 Olympics host):\n1. The Eiffel Tower\n2. The Louvre Museum\n3. Notre-Dame Cathedral (though it's currently under restoration)\n\nBoth cities offer a rich blend of historical sites and modern attractions. Is there a specific type of attraction you're most interested in?",
+        "content": "Here are some places to visit in both Beijing and Paris...",
+        "children": []
+    },
+    {
+        "id": 8,
+        "role": "assistant",
+        "parent": [6],
+        "content": "Here are some places to visit in both Beijing and Paris...",
         "children": []
     }
 ]
